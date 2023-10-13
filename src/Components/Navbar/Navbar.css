@@ -1,0 +1,98 @@
+.navbar {
+  background-color: rgba(22, 12, 109, 0.5);
+  position: absolute !important;
+  width: 100%;
+  z-index: 999;
+}
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  color: #fff !important;
+  font-size: 14px !important;
+  line-height: 28px;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #1bbf00 !important;
+}
+.nav-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+.contact_btn {
+  font-family: "Open Sans", sans-serif;
+  width: 150px;
+  border: none;
+  padding: 14px 28px;
+  color: #fff;
+  background-color: #1bbf00;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.contact_btn:hover {
+  color: #160c6d;
+}
+
+@media (min-width: 280px) and (max-width: 575.98px) {
+  nav {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 99;
+  }
+  .navbar {
+    background-color: #48409c;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #myNavBar {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .navbar-toggler {
+    color: #fefefe;
+    border: none;
+  }
+  .navbar-toggler:focus {
+    border: none;
+  }
+  #myNavBar ul li a {
+    padding: 8px 10px;
+  }
+
+  #myNavBar .contact_btn {
+    padding: 8px 18px;
+    width: 130px;
+  }
+  .nav-item {
+    font-size: 14px;
+    padding: 4px 20px;
+  }
+  .contact_btn {
+    width: 200px;
+    padding: 10px 28px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  #myNavBar {
+    padding-bottom: 140px;
+  }
+  .navbar-toggler {
+    color: #fefefe;
+    border: none;
+  }
+  .navbar-toggler:focus {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+}

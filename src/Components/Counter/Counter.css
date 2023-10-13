@@ -1,0 +1,66 @@
+#counter {
+  padding: 280px 0;
+  background-color: #f9f9fb;
+  position: relative;
+}
+.counter-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.counter-image img {
+  width: 200px;
+}
+#counter .counter_details {
+  text-align: center;
+  border-right: 2px solid rgba(86, 93, 99, 0.199);
+}
+
+#counter .counter_details:last-child {
+  border: none;
+}
+
+#counter h3 {
+  color: #1bbf00;
+  font-family: "Open Sans", sans-serif;
+  font-size: 54px;
+  font-weight: 800;
+}
+
+#counter p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+@media (min-width: 280px) and (max-width: 575.98px) {
+  #counter {
+    padding: 80px 0 30px 0;
+  }
+
+  .counter-image img {
+    width: 130px;
+  }
+
+  #counter .counter_details {
+    border-right: 0;
+    border-bottom: 2px solid rgba(86, 93, 99, 0.199);
+    padding: 50px 0;
+  }
+  #counter h3 {
+    font-size: 36px;
+  }
+
+  #counter p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  #counter {
+    padding: 170px 0 50px;
+  }
+  #counter .counter_details:nth-child(even) {
+    border: none;
+  }
+}

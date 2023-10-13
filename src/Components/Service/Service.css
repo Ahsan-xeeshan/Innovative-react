@@ -1,0 +1,129 @@
+#service {
+  padding: 100px 0;
+  background-color: #f6f5ff;
+}
+
+.service_heading p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #6c7d93;
+  width: 320px;
+  padding-bottom: 40px;
+}
+
+.service_details {
+  background-color: #ffffff;
+  padding: 50px 0;
+  transition: 0.5s;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.service_details h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 32px 0 16px 0;
+}
+
+.service_details p {
+  font-family: "Paprika", cursive;
+  font-size: 16px;
+  color: #726e9e;
+  width: 270px;
+  margin: 0 auto;
+}
+.service_btn {
+  padding: 15px 0;
+}
+.service_btn button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 10px;
+  position: relative;
+  background: transparent;
+  border: none;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.service_btn button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #1bbf0054;
+  transition: 0.5s;
+  border-radius: 0 100px 100px 0;
+  -webkit-border-radius: 0 100px 100px 0;
+  -moz-border-radius: 0 100px 100px 0;
+  -ms-border-radius: 0 100px 100px 0;
+  -o-border-radius: 0 100px 100px 0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.service_details:hover {
+  background-color: #6b62c5;
+}
+
+.service_details:hover h4 {
+  color: #fafafe;
+}
+.service_details:hover p {
+  color: #e6e5f3;
+}
+.service_details:hover .service_btn button {
+  color: #ffffff;
+}
+
+.service_details:hover .service_btn button::after {
+  background-color: #ffffff52;
+}
+.service_btn button:hover::after {
+  width: 100%;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+@media (min-width: 280px) and (max-width: 575.98px) {
+  #service {
+    padding: 50px 0;
+  }
+  .service_heading {
+    text-align: center;
+  }
+  .service_heading p {
+    margin: 0 auto;
+  }
+
+  .service_details h4 {
+    font-size: 20px;
+  }
+  .service_details p {
+    font-size: 14px;
+  }
+  .service_btn button {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+}

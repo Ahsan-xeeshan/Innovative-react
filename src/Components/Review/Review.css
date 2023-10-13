@@ -1,0 +1,153 @@
+#review {
+  padding: 100px 0;
+  background-color: #f9f9fb;
+}
+
+.review_head h3 {
+  color: #141135;
+  font-size: 38px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  padding-bottom: 150px;
+}
+
+.review_box {
+  width: 950px;
+  height: 420px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.3);
+  margin: 0 auto;
+  padding: 110px 0;
+  position: relative;
+}
+.arrow_btns {
+  position: relative;
+}
+.left_arrow {
+  position: absolute;
+  left: 50px;
+  top: 390px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #19bf006b;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.right_arrow {
+  position: absolute;
+  right: 50px;
+  top: 390px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #19bf006b;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.left_arrow i,
+.right_arrow i {
+  color: #ffffff;
+}
+
+.left_arrow:hover,
+.right_arrow:hover {
+  background-color: #1bbf00;
+}
+
+.reviewer_img {
+  position: absolute;
+  top: -95px;
+  left: 340px;
+}
+.review_star {
+  padding-bottom: 30px;
+}
+.review_star i {
+  color: #ff7628;
+}
+
+.review_box p {
+  color: #726e9e;
+  font-size: 18px;
+  width: 650px;
+  font-family: "Paprika", cursive;
+  line-height: 40px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.review_box h4 {
+  color: #221a2c;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+}
+.review_box p.designation {
+  color: #726e9e;
+  font-size: 12px;
+  font-family: "Paprika", cursive;
+  line-height: 25px;
+}
+
+@media (min-width: 280px) and (max-width: 575.98px) {
+  .review_head h3 {
+    font-size: 26px;
+    padding-bottom: 100px;
+  }
+  .review_box {
+    width: 350px;
+  }
+  .reviewer_img {
+    top: -85px;
+    left: 37px;
+  }
+  .review_box p {
+    width: 320px;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .review_box h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .review_box p.designation {
+    font-size: 8px;
+  }
+  .left_arrow {
+    top: 560px;
+    left: 35%;
+    z-index: 999;
+  }
+  .right_arrow {
+    top: 560px;
+    right: 35%;
+    z-index: 999;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .review_box {
+    width: 100%;
+  }
+  .reviewer_img {
+    left: 30%;
+  }
+  .left_arrow {
+    top: 380px;
+    left: 1%;
+    z-index: 999;
+  }
+  .right_arrow {
+    top: 380px;
+    right: 1%;
+    z-index: 999;
+  }
+}

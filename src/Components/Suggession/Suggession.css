@@ -1,0 +1,123 @@
+#suggession {
+  padding: 100px 0;
+  position: relative;
+}
+.sugession_bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.sugession_bg img {
+  width: 200px;
+}
+.suggession_links {
+  padding: 40px 0;
+}
+.suggest_img img {
+  width: 360px;
+  height: 230px;
+  border-radius: 15px;
+}
+
+.link_source a {
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+  color: #726e9e;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.link_source a:hover {
+  color: #1bbf00;
+}
+
+.link_summary h5 {
+  color: #141135;
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  width: 450px;
+  padding-bottom: 24px;
+}
+
+.link_summary a {
+  color: #141135;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 10px;
+  position: relative;
+  background: transparent;
+  border: none;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.link_summary a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #1bbf0054;
+  transition: 0.5s;
+  border-radius: 0 100px 100px 0;
+  -webkit-border-radius: 0 100px 100px 0;
+  -moz-border-radius: 0 100px 100px 0;
+  -ms-border-radius: 0 100px 100px 0;
+  -o-border-radius: 0 100px 100px 0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.link_summary a:hover::after {
+  width: 100%;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+@media (min-width: 280px) and (max-width: 575.98px) {
+  #suggession {
+    padding-top: 50px;
+    padding-bottom: 250px;
+  }
+  .link_source a {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+  .link_summary h5 {
+    font-size: 18px;
+    width: 330px;
+    line-height: 35px;
+    letter-spacing: -1px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .link_source a {
+    font-size: 12px;
+    padding-right: 5px;
+  }
+
+  .link_summary h5 {
+    font-size: 18px;
+    width: 320px;
+    line-height: 35px;
+    letter-spacing: -1px;
+  }
+  #suggession {
+    padding-bottom: 250px;
+  }
+}
